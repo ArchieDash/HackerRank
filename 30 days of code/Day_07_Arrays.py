@@ -1,3 +1,3 @@
 n = int(input().strip())
-arr = [int(arr_temp) for arr_tempin input().strip().split(' ')]
+arr = [int(arr_temp) for arr_temp in input().strip().split(' ')]
 print(" ".join(map(str, arr[::-1])))
