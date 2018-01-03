@@ -11,10 +11,10 @@ class Person:
 
 class Student(Person):
     def __init__(self,firstName,lastName,idNum,scores):
-        self.firstName=firstName
-        self.lastName=lastName
-        self.idNumber=idNum
-        self.scores=scores
+        self.firstName = firstName
+        self.lastName = lastName
+        self.idNumber = idNum
+        self.scores = scores
 
     def calculate(self):
         a = sum(self.scores) / len(self.scores)
