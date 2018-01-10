@@ -21,10 +21,10 @@ class Solution:
         return head
         
         
-mylist= Solution()
-T=int(input())
-head=None
+mylist = Solution()
+T = int(input())
+head = None
 for i in range(T):
-    data=int(input())
-    head=mylist.insert(head,data)    
-mylist.display(head); 	          
+    data = int(input())
+    head = mylist.insert(head,data)    
+mylist.display(head) 	          
